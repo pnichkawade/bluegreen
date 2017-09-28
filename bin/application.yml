@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: FLIGHT-BOOKING
+server:
+  port: 9098
