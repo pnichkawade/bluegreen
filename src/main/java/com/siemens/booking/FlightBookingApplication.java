@@ -20,6 +20,6 @@ class ServiceInstanceRestController {
     @RequestMapping("/")
     public ResponseEntity<String> test() {
     	
-        return new ResponseEntity<String>("Hello World!", HttpStatus.CREATED);
+        return new ResponseEntity<String>("Hello World!", HttpStatus.OK);
     }
 } 
